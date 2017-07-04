@@ -18,6 +18,6 @@ public class Math {
             factorial *= i;
         }
 
-        return factorial;
+        return factorial*2;
     }
 }
