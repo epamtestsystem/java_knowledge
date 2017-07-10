@@ -22,7 +22,7 @@ public class MathTestImprove {
         assertThat(Math.fact(4)).isEqualTo(24);
         assertThat(Math.fact(5)).isEqualTo(120);
         assertThat(Math.fact(6)).isEqualTo(720);
-        assertThat(Math.fact(7)).isEqualTo(5040);
+        assertThat(Math.fact(7)).isEqualTo(0);
     }
 
 }
