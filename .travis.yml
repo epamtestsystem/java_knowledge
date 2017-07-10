@@ -4,8 +4,6 @@ jdk:
 
 before_script:
   - git clone $TEST_PACKAGE tests
-  - mkdir test
-  - git clone $TEST
   - ./setup.sh
 
 script:
