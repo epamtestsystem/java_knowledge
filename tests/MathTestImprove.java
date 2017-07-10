@@ -14,6 +14,7 @@ public class MathTestImprove {
         assertThat(Math.fib(7)).isEqualTo(13);
         assertThat(Math.fib(8)).isEqualTo(21);
         assertThat(Math.fib(9)).isEqualTo(34);
+        assertThat(Math.fib(9)).isEqualTo(34);
     }
 
     @Test
@@ -21,7 +22,7 @@ public class MathTestImprove {
         assertThat(Math.fact(4)).isEqualTo(24);
         assertThat(Math.fact(5)).isEqualTo(120);
         assertThat(Math.fact(6)).isEqualTo(720);
-        assertThat(Math.fact(7)).isEqualTo(5040);
+        assertThat(Math.fact(7)).isEqualTo(0);
     }
 
 }

@@ -4,10 +4,13 @@
  */
 public class Math {
     public static int fib(int n) {
-        throw new UnsupportedOperationException("Must be implemented");
+        if (n == 0) {
+            return 0;
+        }
+        return (n <= 2) ? 1 : (fib(n - 1) + fib(n - 2));
     }
 
     public static int fact(int n) {
-        throw new UnsupportedOperationException("Must be implemented");
+        return (n != 0) ? (n * fact(n-1)) : 1;
     }
 }
