@@ -9,6 +9,7 @@ before_script:
 script:
   - ./gradlew clean
   - ./gradlew build
+
 notifications:
   webhooks:
     urls:
